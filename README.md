@@ -7,7 +7,7 @@ A fun and interactive **Tic Tac Toe** game built using **HTML**, **CSS**, and **
 ## 🔗 Live Preview
 
 👉 [Click here to play the game](https://mytictactoecom.vercel.app/)  
-_(Replace with your actual Vercel or GitHub Pages link)_
+
 
 ---
 
