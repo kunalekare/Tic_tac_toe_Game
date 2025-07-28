@@ -35,7 +35,10 @@ const checkWin = ()=>{
 }
 
 // Game Logic
-music.play();
+document.addEventListener('click', function handleFirstClick() {
+    music.play(); // Play background music
+    document.removeEventListener('click', handleFirstClick); // Play only once
+});
 
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
